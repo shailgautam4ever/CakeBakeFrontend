@@ -1,0 +1,2 @@
+//GET -- getting server data 
+//POST -- send data server response => json/true g => add cake success

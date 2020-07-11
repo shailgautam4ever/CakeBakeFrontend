@@ -1,0 +1,26 @@
+:root {
+    --pink: #ffc0cb;
+    --white: #f1f1f1;
+}
+
+*{
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+hr{
+    margin-top: 15px;
+    height: 1px !important;
+    border: none;
+    background-color: #ddd;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.main-content{
+    display: flex;
+    min-height: calc(100vh - 55px);
+    background-color: #f0f2f5;
+}

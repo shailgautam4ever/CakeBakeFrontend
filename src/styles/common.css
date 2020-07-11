@@ -1,0 +1,87 @@
+.df{
+    display: flex;
+}
+.f1 {
+    flex: 1;
+}
+
+.fdc{
+    flex-direction: column;
+}
+.jcc{
+    justify-content: center;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.jcse {
+    justify-content: space-evenly;
+}
+.aic {
+    align-items: center;
+}
+
+.p-10{
+    padding: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.mr-5 {
+ margin-right: 5px;
+}
+.ml-5 {
+    margin-left: 5px;
+   }
+
+.w100 {
+    width: 100%;
+}
+
+/* --------------text----------- */
+.mHeading {
+    font-weight: bold;
+    font-size: 25px;
+}
+.sHeading {
+    font-weight: bold;
+    font-size: 15px;
+}
+.text-sm{
+    font-size: 15px;
+}
+
+/* ----------------Buttons------------- */
+.mbtn {
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.mbtn:hover {
+    opacity: .9;
+}
+
+.mbtn-success{
+    background-color: seagreen;
+    color: white;
+}
+
+.mbtn-secondary{
+    background-color: lightgreen;
+}
+
+.main-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding:30px;
+}
+
+
+.price-text {
+    color: green;
+    font-weight: bold;
+}

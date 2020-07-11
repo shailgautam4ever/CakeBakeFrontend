@@ -1,0 +1,148 @@
+main-container {
+    display: flex;
+    /* height: 100vh; */
+    flex:1;
+}
+
+.container{
+    display: flex;
+    flex:1;
+    margin: 20px;
+    box-shadow: -1px 2px 4px 5px #ddd;
+    background-color: white;
+}
+
+.left-container {
+    flex:1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-box {
+   flex:2;
+    margin-bottom: 10px;
+    display: flex;
+    /* overflow: hidden; */
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: -1px 2px 4px 5px #ddd;
+}
+
+.imgSize {
+    height:300px;
+    width : 395px;
+}
+.left-statement{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+
+}
+.left-statement > div {
+    border:2px solid lightgreen;
+    padding: 8px;
+    color: seagreen;
+    margin-right: 10px;
+    flex:none;
+}
+
+.left-rect{
+    flex:1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items:center;
+    box-shadow: -1px 2px 4px 5px #ddd;
+   margin-top: 20px;
+}
+
+.left-label{
+    flex:1;
+    padding: 15px;
+    color:grey;
+    border-left: 1px solid;
+}
+
+.right-container{
+    flex:1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-title {
+    flex:1;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    color: #ccc;  
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.right-title > span:nth-child(1) {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: darkslategray;
+}
+
+.right-title > span:nth-child(3)
+{
+    align-self: flex-end;
+    margin-right: 30px;
+    color: lightgreen;
+}
+
+
+.right-title > div {
+    margin-top: 40px;
+}
+
+.right-title > div> span:nth-child(1) {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.right-content{
+    flex:1;
+    border-bottom: 1px solid #ddd;
+    color: #aaa; 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.right-content > span {
+    padding: 10px;
+}
+.right-chef{
+    flex:1;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cake-varient-wapper {
+    padding: 10px;
+}
+.cake-varient-wapper .cake-varient-item{
+    padding: 10px;
+    margin-right: 10px;
+    border:2px solid grey;
+}
+
+.cake-varient-item-active {
+    border: 2px solid cornflowerblue !important;
+}
+

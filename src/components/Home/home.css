@@ -1,0 +1,35 @@
+.home-main {
+    flex: 1;
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+}
+.all-cakes {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.single-cake-item {
+    width: 300px;
+    /* min-height: 200px; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px #999;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.single-cake-item > img {
+    height: 200px;
+    background-size: contain;
+}
+
+.single-cake-item > span {
+    text-align: center;
+}
+
+

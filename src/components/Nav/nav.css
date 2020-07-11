@@ -1,0 +1,41 @@
+.nav-wrapper{
+    background-color: pink;
+    /* height: 10vh; */
+    height: 55px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left > span {
+    font-size: 25px;
+    color: deeppink;
+    font-family: forte;
+}
+.nav-left > i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-right{
+    display: flex;
+}
+.nav-right span {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+}
+
+.nav-item-active {
+    background-color: black;
+}
+.nav-item-active span {
+    color: blanchedalmond;
+}
